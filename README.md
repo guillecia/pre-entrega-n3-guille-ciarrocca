@@ -6,4 +6,3 @@ Agregamos animaciones de libreria AOS
 Utilizamos un controlador de versiones GIT
 cargamos nuestro codigo en Repositorio GITHUB
 El gitignore esta en desuso
-18-04 descargue la carpeta de SASS de la pagina de bootstrap.
