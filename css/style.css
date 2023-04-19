@@ -14,5 +14,13 @@ header footer {
   background-color: rgb(29, 31, 33); /* Color rojo */
   color: #ffffff; /* Color blanco */
 }
+.colorr {
+  background-color: rgb(0, 0, 0);
+  color:rgb(202, 197, 186)
+}
+
+.green {
+  fill: rgb(197, 158, 74);
+}
 
 /*# sourceMappingURL=style.css.map */
