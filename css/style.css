@@ -1,5 +1,13 @@
-h1 {
-  color: rgb(215, 156, 39) !important;
+h1, h2, h3, h4, h5 {
+  color: rgb(202, 197, 186) !important;
+}
+
+header footer {
+  background-color: rgb(29, 31, 33);
+}
+
+body {
+  background-color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
