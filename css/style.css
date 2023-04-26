@@ -1,10 +1,17 @@
-h1, h2, h3, h4, h5, p {
+@charset "UTF-8";
+h1, h2, h3, p {
   color: rgb(202, 197, 186) !important;
 }
 
-body {
-  background-color: black;
+h4 {
+  color: black;
 }
+
+h5 {
+  color: #151515;
+}
+
+
 
 header footer {
   background-color: rgb(29, 31, 33);
@@ -21,10 +28,21 @@ header footer {
   z-index: 100;
 }
 
-.site-content {
-  padding-bottom: 100px; /* altura del footer */
+.redes > a {
+  padding: 1rem;
+  margin-top: 15px;
 }
 
-
+footer {
+  position: absolute; /* Posicionamos el pie de página de forma absoluta */
+  /* bottom: 0; /* Lo fijamos en el borde inferior */
+  width: 100%; /* Definimos el ancho al 100% para que abarque toda la página */
+    /*Definimos la altura del pie de página */
+}
+body {
+  background-color: black;
+  /*position: relative; /* Es importante definir la posición del cuerpo */
+  height: 100%; /* Es importante definir la altura del cuerpo */
+}
 
 /*# sourceMappingURL=style.css.map */

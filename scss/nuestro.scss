@@ -1,5 +1,6 @@
-h1 , h2 , h3 , h4 , h5, p {color: rgb(202, 197, 186)!important;}
-
+h1 , h2 , h3 , p {color: rgb(202, 197, 186)!important;}
+h4 {color: black;}
+h5 {color: #151515;}
 body {
     background-color: black;
 }
@@ -16,3 +17,12 @@ header footer{
     top: 0;
     z-index: 100;
   }
+  .redes > a {padding: 1rem;
+    margin-top: 15px;}
+    footer {
+      /* position: absolute;  Posicionamos el pie de página de forma absoluta */
+      bottom: 0; /* Lo fijamos en el borde inferior */
+      width: 100%; /* Definimos el ancho al 100% para que abarque toda la página */
+      /* height: 50px;  Definimos la altura del pie de página */
+    
+    }
