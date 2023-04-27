@@ -34,7 +34,7 @@ header footer {
 }
 
 footer {
-  position: absolute; /* Posicionamos el pie de página de forma absoluta */
+  /*position: absolute; /* Posicionamos el pie de página de forma absoluta */
   /* bottom: 0; /* Lo fijamos en el borde inferior */
   width: 100%; /* Definimos el ancho al 100% para que abarque toda la página */
     /*Definimos la altura del pie de página */
