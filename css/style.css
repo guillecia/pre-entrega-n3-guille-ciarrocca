@@ -11,7 +11,9 @@ h5 {
   color: #151515;
 }
 
-
+body {
+  background-color: black;
+}
 
 header footer {
   background-color: rgb(29, 31, 33);
@@ -34,15 +36,23 @@ header footer {
 }
 
 footer {
-  /*position: absolute; /* Posicionamos el pie de página de forma absoluta */
-  /* bottom: 0; /* Lo fijamos en el borde inferior */
+  /* position: absolute;  Posicionamos el pie de página de forma absoluta */
+  bottom: 0; /* Lo fijamos en el borde inferior */
   width: 100%; /* Definimos el ancho al 100% para que abarque toda la página */
-    /*Definimos la altura del pie de página */
+  /* height: 50px;  Definimos la altura del pie de página */
 }
-body {
-  background-color: black;
-  /*position: relative; /* Es importante definir la posición del cuerpo */
-  height: 100%; /* Es importante definir la altura del cuerpo */
+
+.card, .move {
+  transition: all 400ms ease;
+}
+
+.card:hover {
+  box-shadow: 5px 5px 20px rgb(202, 197, 186);
+  transform: translateY(-3%);
+}
+
+.move:hover {
+  transform: translateY(-8%);
 }
 
 /*# sourceMappingURL=style.css.map */

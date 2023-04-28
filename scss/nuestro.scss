@@ -26,3 +26,13 @@ header footer{
       /* height: 50px;  Definimos la altura del pie de página */
     
     }
+    .card , .move{
+      transition: all 400ms ease;
+    }
+    .card:hover{
+      box-shadow: 5px 5px 20px rgb(202, 197, 186);
+      transform: translateY(-3%);
+    }
+    .move:hover{
+      transform: translateY(-8%);
+    }
